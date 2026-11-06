@@ -84,8 +84,11 @@ def main():
     payMerchant("Pharmacy", 420, "4321")
     miniStatement()
     print("Cashback on 420:", cashbackFor(420, "health"))
-    print("Gateway check:", checkGateway("wrong")) # should be False
+    print("Gateway check:", checkGateway("wrong"))  # should be False
     print("Final balance: Rs.", wallet["balance"])
-    creditAmounts=[t["amount"] for t in transactions if t["type"] == "credit"]
-    print("Total credited:",sum(creditAmounts))
+    creditAmounts = [t["amount"] for t in transactions
+                     if t["type"] == "credit"]
+    print("Total credited:", sum(creditAmounts))
+
+
 main()
