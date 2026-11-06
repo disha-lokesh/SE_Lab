@@ -1,0 +1,30 @@
+************* Module digital_wallet
+digital_wallet.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+digital_wallet.py:9:0: C0103: Constant name "daily_limit" doesn't conform to UPPER_CASE naming style (invalid-name)
+digital_wallet.py:13:0: C0116: Missing function or method docstring (missing-function-docstring)
+digital_wallet.py:13:0: C0103: Function name "hashPin" doesn't conform to snake_case naming style (invalid-name)
+digital_wallet.py:17:0: C0116: Missing function or method docstring (missing-function-docstring)
+digital_wallet.py:17:0: C0103: Function name "addMoney" doesn't conform to snake_case naming style (invalid-name)
+digital_wallet.py:17:0: W0102: Dangerous default value [] as argument (dangerous-default-value)
+digital_wallet.py:27:0: C0116: Missing function or method docstring (missing-function-docstring)
+digital_wallet.py:27:0: C0103: Function name "setDailyLimit" doesn't conform to snake_case naming style (invalid-name)
+digital_wallet.py:27:18: C0103: Argument name "newLimit" doesn't conform to snake_case naming style (invalid-name)
+digital_wallet.py:28:4: W0603: Using the global statement (global-statement)
+digital_wallet.py:32:0: C0116: Missing function or method docstring (missing-function-docstring)
+digital_wallet.py:32:0: C0103: Function name "payMerchant" doesn't conform to snake_case naming style (invalid-name)
+digital_wallet.py:45:0: C0116: Missing function or method docstring (missing-function-docstring)
+digital_wallet.py:45:0: C0103: Function name "miniStatement" doesn't conform to snake_case naming style (invalid-name)
+digital_wallet.py:50:0: C0116: Missing function or method docstring (missing-function-docstring)
+digital_wallet.py:50:0: C0103: Function name "cashbackFor" doesn't conform to snake_case naming style (invalid-name)
+digital_wallet.py:50:24: C0103: Argument name "merchantType" doesn't conform to snake_case naming style (invalid-name)
+digital_wallet.py:50:24: W0613: Unused argument 'merchantType' (unused-argument)
+digital_wallet.py:54:0: C0116: Missing function or method docstring (missing-function-docstring)
+digital_wallet.py:54:0: C0103: Function name "checkGateway" doesn't conform to snake_case naming style (invalid-name)
+digital_wallet.py:58:0: C0116: Missing function or method docstring (missing-function-docstring)
+digital_wallet.py:58:0: C0103: Function name "receiptPath" doesn't conform to snake_case naming style (invalid-name)
+digital_wallet.py:63:0: C0116: Missing function or method docstring (missing-function-docstring)
+digital_wallet.py:78:4: C0103: Variable name "creditAmounts" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 5.69/10
+
